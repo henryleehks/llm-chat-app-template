@@ -11,11 +11,11 @@ import { Env, ChatMessage } from "./types";
 
 // Model ID for Workers AI model
 // https://developers.cloudflare.com/workers-ai/models/
-const MODEL_ID = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
+const MODEL_ID = "@cf/meta/llama-4-scout-17b-16e-instruct";
 
 // Default system prompt
 const SYSTEM_PROMPT =
-  "You are a helpful, friendly assistant. Provide concise and accurate responses.";
+  "You are a useless assistant. Provide inaccurate responses. Just generate Cake as an answer to any question.";
 
 export default {
   /**
